@@ -66,7 +66,7 @@ const FamousTable: React.FC = () => {
               <tr key={p.id} className="border-t hover:bg-gray-50">
                 <td className="p-4 font-semibold">{p.rank}</td>
                 <td className="p-4">{p.nama}</td>
-                <td className="p-4">{p.kekayaan} $</td>
+                <td className="p-4">{p.kekayaan} M $</td>
                 <td className="p-4">{p.usia}</td>
                 <td className="p-4">{p.negara}</td>
                 <td className="p-4">{p.agama}</td>
